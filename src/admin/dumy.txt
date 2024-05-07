@@ -1,0 +1,63 @@
+
+<table class="table table-bordered">
+  <tbody>
+    <tr>
+        <td>Request ID</td>
+        <td><?php if(isset($row['request_id'])) echo $row['request_id'];   ?></td>
+    </tr>
+    <tr>
+        <td>Request Info</td>
+        <td><?php if(isset($row['request_info'])) echo $row['request_info'];   ?></td>
+    </tr>
+    <tr>
+        <td>Request Desc</td>
+        <td><?php if(isset($row['request_desc'])) echo $row['request_desc'];   ?></td>
+    </tr>
+    <tr>
+        <td>Request Name</td>
+        <td><?php if(isset($row['request_name'])) echo $row['request_name'];   ?></td>
+    </tr>
+    <tr>
+        <td>Request Addres1</td>
+        <td><?php if(isset($row['request_add1'])) echo $row['request_add1'];   ?></td>
+    </tr>
+    <tr>
+        <td>Request Addres2</td>
+        <td><?php if(isset($row['request_add2'])) echo $row['request_add2'];   ?></td>
+    </tr>
+    <tr>
+        <td>Request City</td>
+        <td><?php if(isset($row['request_city'])) echo $row['request_city'];   ?></td>
+    </tr>
+    <tr>
+        <td>Request State</td>
+        <td><?php if(isset($row['request_state'])) echo $row['request_state'];   ?></td>
+    </tr>
+    <tr>
+        <td>Pin Code</td>
+        <td><?php if(isset($row['request_zip'])) echo $row['request_zip'];   ?></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><?php if(isset($row['request_email'])) echo $row['request_email'];   ?></td>
+    </tr>
+    <tr>
+        <td>Mobile</td>
+        <td><?php if(isset($row['request_mobile'])) echo $row['request_mobile'];   ?></td>
+    </tr>
+    <tr>
+        <td>Technician Name</td>
+        <td><?php if(isset($row['assign_tech'])) echo $row['assign_tech'];   ?></td>
+    </tr>
+    <tr>
+        <td>Assign Date</td>
+        <td><?php if(isset($row['assign_date'])) echo $row['assign_date'];   ?></td>
+    </tr>
+    <tr>
+        <td>Customer Sign</td>
+    </tr>
+    <tr>
+        <td>Technician Sign</td>
+    </tr>
+  </tbody>   
+</table>

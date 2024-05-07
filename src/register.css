@@ -1,0 +1,21 @@
+.registration-form {
+    background-color: #f8f9fa; /* Light gray background color */
+  }
+  
+  .card-header {
+    background-color: #007bff; /* Red color for the header */
+  }
+  
+  .btn-danger {
+    background-color: #007bff;
+    /* border-color: #dc3545; */
+  }
+  
+  .btn-danger:hover {
+    background-color: #007bff;
+    /* border-color: #bd2130; */
+  }
+  
+  .card-footer {
+    background-color: #f8f9fa !important; /* Light gray background color */
+  }
